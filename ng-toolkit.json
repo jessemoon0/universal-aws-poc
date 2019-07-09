@@ -15,5 +15,16 @@
     "skipServer": false,
     "skipUniversal": false,
     "webpack": true
+  },
+  "serverless": {
+    "project": "universal-sandbox",
+    "provider": "aws",
+    "skipInstall": false,
+    "directory": ".",
+    "clientProject": "universal-sandbox",
+    "serverless": {
+      "aws": {},
+      "gcloud": {}
+    }
   }
 }
